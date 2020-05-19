@@ -1,0 +1,11 @@
+Sınav sorum
+*Telefon isimli temel bir sınıf oluşturunuz.
+*Telefon isimli temel sınıfın 3 tane özelliği olması gerekmektedir. Bu 3 özellikten ram private,hafıza ve kamera istenilen erişim belirliyecisiyle tanımlanmalıdır.
+*Telefon isimli temel sınıfı parametre alan bir yapıcı metot tanımlanmalıdır. Bu yapıcı metot sınıf özelliklerinden ram ve hafızaya ilk değer atamalıdır.
+*Telefon isimli sınıfının toplam 4 tane fonksiyonu olmalıdır. Bu fonksiyonlardan:
+1-“ramAzalt” fonksiyonu private erişim belirleyicisini kullanmalıdır. Bu fonksiyonun içinde her hangi bir işlem yapmaya gerek yoktur
+2-“ramAzalt” fonksiyonu hariç diğerleri istediğiniz erişim belirleyicisini kullanabilirsiniz
+3-“ramvehafızaArttır” fonksiyonu çok biçimlilik özelliğini göstermelidir.
+4-bir tane ‘”bilgelerigöster metodu” bulunmalıdır
+*Telefon sınıfından yeni bir “dokunmatiktelefon” adlı bir sınıf türetilmelidir ve sınıfın ekstra “dokunmatikekran” diye bir özelliği olmalıdır ve bu “dokunmatikekran” özelliğini “bilgelerigöster” metodu override edilerek içine eklenmelidir.
+*Test isimli bir class oluşturulmalı ve bu classtan “dokunmatikekran” classını referans alarak yeni bir obje üretilmelidir ve bu classın içinde ayrıca ram arttırma ,hafıza arttırma, bilgeleri gösterme gibi temel işlemler yapılabilmelidir.
